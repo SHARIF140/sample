@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Soundtrack with Black Screen</title>
+    <!-- Add any necessary styles -->
+    <style>
+        body {
+            margin: 0;
+            background-color: black; /* Set background to black */
+        }
+        /* Hide the audio player visually */
+        audio {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            opacity: 0;
+            overflow: hidden;
+        }
+    </style>
+</head>
+<body>
+    <!-- Add audio tag for the soundtrack -->
+    <audio controls autoplay loop>
+        <source src="waterfalls.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</body>
+</html>
+
+
